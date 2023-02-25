@@ -1,0 +1,23 @@
+{
+  "name": "chatsig",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run dev --prefix client\" \"npm run server --prefix server\""
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsigno/ChatSIG.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsigno/ChatSIG/issues"
+  },
+  "homepage": "https://github.com/jsigno/ChatSIG#readme",
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
